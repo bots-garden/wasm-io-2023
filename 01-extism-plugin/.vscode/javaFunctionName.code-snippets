@@ -1,0 +1,9 @@
+{
+    "config": {
+        "scope": "java",
+        "prefix": "@functionName",
+        "body": [
+            "say_hello"
+        ]
+    }
+}

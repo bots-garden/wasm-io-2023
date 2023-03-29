@@ -1,0 +1,25 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Gnome Dark (GitHub)",
+  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 18,
+  "workbench.colorCustomizations": {
+    "[Gnome Dark (GitHub)]": {
+      "editor.lineHighlightBackground": "#1e5891"
+    }
+  },
+  "go.useLanguageServer": true,
+  "go.toolsGopath": "/home/ubuntu/go/",
+  "go.gopath": "/home/ubuntu/go/",
+  "go.toolsEnvVars": {
+    "GOOS": "linux",
+    "GOARCH": "arm64",
+  },
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "keyboard.layout": "com.apple.keylayout.French",
+}
+
+
+
+
+

@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: preload-cracker
+spec:
+  selector:
+    matchLabels:
+      name: preload-cracker
+  template:
+    metadata:
+      labels:
+        name: preload-cracker
+    spec:
+      containers:
+      - name: preload-cracker
+        image: k33g/cracker-amd64:0.0.3
+        imagePullPolicy: Always

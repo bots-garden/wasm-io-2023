@@ -1,0 +1,9 @@
+{
+    "config": {
+        "scope": "java",
+        "prefix": "@path",
+        "body": [
+            "../hello-go/hello-go.wasm"
+        ]
+    }
+}

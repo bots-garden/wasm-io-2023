@@ -1,0 +1,9 @@
+{
+    "config": {
+        "scope": "java",
+        "prefix": "@config",
+        "body": [
+            "plugin.updateConfig(\"{\\\"route\\\":\\\"https://jsonplaceholder.typicode.com/todos/3\\\"}\");"
+        ]
+    }
+}

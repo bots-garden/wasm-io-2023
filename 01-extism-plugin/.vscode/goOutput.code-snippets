@@ -1,0 +1,9 @@
+{
+    "config": {
+        "scope": "go",
+        "prefix": "@output",
+        "body": [
+            " \" 📝 title: \" + title"
+        ]
+    }
+}

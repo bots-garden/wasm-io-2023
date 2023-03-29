@@ -1,0 +1,9 @@
+{
+    "config": {
+        "scope": "go",
+        "prefix": "@config",
+        "body": [
+            "route, _:= pdk.GetConfig(\"route\")"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "response": {
+        "scope": "go",
+        "prefix": "@response",
+        "body": [
+            "res := req.Send()",
+            "// https://jsonplaceholder.typicode.com/todos/3",
+            "parser := fastjson.Parser{}",
+            "jsonValue, _ := parser.Parse(string(res.Body()))",
+            "title := string(jsonValue.GetStringBytes(\"title\"))"
+        ]
+    }
+
+}

@@ -1,0 +1,9 @@
+{
+    "request": {
+        "scope": "go",
+        "prefix": "@request",
+        "body": [
+            "req := pdk.NewHTTPRequest(\"GET\", route)",
+        ]
+    }
+}
